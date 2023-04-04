@@ -19,6 +19,7 @@
   .hamburger-menu {
     display: block;
   }
+
   .nav-list {
     position: absolute;
     top: 60px;
@@ -32,6 +33,7 @@
     align-items: center;
     transition: all 0.3s ease-in-out;
   }
+
   .nav-list.show-menu {
     left: 0;
   }

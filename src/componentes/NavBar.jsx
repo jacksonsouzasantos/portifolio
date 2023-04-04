@@ -39,6 +39,11 @@ const NavBar = () => {
             Projects
           </Link>
         </li>
+        <li className="nav-item">
+          <Link to="/skills" onClick={hideMenu}>
+            Skills
+          </Link>
+        </li>
       </ul>
     </nav>
   );
