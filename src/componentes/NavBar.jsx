@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import '../style/NavBar.css';
 
 const NavBar = () => {
@@ -15,34 +15,32 @@ const NavBar = () => {
   };
 
   return (
-    <>
-      <div className="hamburguer-menu">
+    <nav className="nav-menu">
+      <div className="hamburger-menu">
         {showMenu ? (
           <FaTimes onClick={handleMenu} />
         ) : (
           <FaBars onClick={handleMenu} />
         )}
       </div>
-      <nav className={`nav-menu ${showMenu ? 'show-menu' : ''}`}>
-        <ul className="nav-list">
-          <li className="nav-item">
-            <Link to="/" onClick={hideMenu}>
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/about" onClick={hideMenu}>
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/projects" onClick={hideMenu}>
-              Projects
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </>
+      <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`}>
+        <li className="nav-item">
+          <Link to="/" onClick={hideMenu}>
+            Home
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/about" onClick={hideMenu}>
+            About
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/projects" onClick={hideMenu}>
+            Projects
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
