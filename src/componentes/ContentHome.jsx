@@ -5,10 +5,9 @@ import '../style/Home.css';
 export default function ContentHome() {
   return (
     <div className="home">
-      <div className="video-background">
+       <div className="video-background">
         <video autoPlay muted loop className="video">
-          <source src="src/assets/background.mp4" type="video/mp4" />
-          <source src="src/assets/background.webm" type="video/webm"></source>
+          <source src="src/assets/backgroundclould.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="content">
