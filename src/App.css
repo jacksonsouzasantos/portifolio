@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .nav-menu {
   background-color: #ffffff;
   height: 60px;

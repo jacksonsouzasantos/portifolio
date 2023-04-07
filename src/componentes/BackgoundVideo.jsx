@@ -33,8 +33,7 @@ export default function BackgroundVideo(props) {
 
   return (
     <video ref={videoRef} autoPlay muted loop className="background-video">
-      <source src={props.src} type="video/mp4" />
-      {/* Adicione outros formatos de vídeo aqui para compatibilidade com outros navegadores */}
+      <source src={props.src} type="video/webm" />
     </video>
   );
 }
