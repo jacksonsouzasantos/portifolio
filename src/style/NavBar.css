@@ -9,12 +9,13 @@
 .nav-menu {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  /* left: 0; */
+  /* width: 100%; */
   z-index: 999;
   /* valor maior do que a propriedade z-index do vídeo de plano de fundo */
   background-color: rgba(77, 76, 76, 0.5);
   /* ...resto do código... */
+  
 }
 
 a {
