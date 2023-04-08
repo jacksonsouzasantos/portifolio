@@ -21,6 +21,7 @@
 //   );
 // }
 
+
 import React from 'react';
 import TypeWrite from './typeWrite';
 import '../style/Home.css';
@@ -29,11 +30,12 @@ export default function ContentHome() {
   return (
     <div className="home">
       <div className="video-background">
-        <video autoPlay muted loop className="video">
-          <source src="https://www.youtube.com/embed/7-MlkHYfRvs?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=7-MlkHYfRvs" type="video/mp4" />
-          {/* <source src="src/assets/backgroundclould.mp4" type="video/mp4" />
-          <source src="src/assets/backgroundclould.webm" type="video/webm" /> */}
-        </video>
+        <iframe className="video-background"
+           src="https://www.youtube.com/embed/7-MlkHYfRvs?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=7-MlkHYfRvs" type="video/mp4" 
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
       </div>
       <div className="content">
         <div className="text">
@@ -44,3 +46,4 @@ export default function ContentHome() {
     </div>
   );
 }
+
