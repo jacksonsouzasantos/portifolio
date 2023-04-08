@@ -7,8 +7,8 @@ export default function ContentHome() {
     <div className="home">
       <div className="video-background">
         <video autoPlay muted loop className="video">
-          <source src="src/assets/backgroundclould.webm" type="video/webm" />
           <source src="src/assets/backgroundclould.mp4" type="video/mp4" />
+          <source src="src/assets/backgroundclould.webm" type="video/webm" />
         </video>
       </div>
       <div className="content">
