@@ -6,9 +6,9 @@ export default function ContentHome() {
   return (
     <div className="home">
        <div className="video-background">
-        <video autoPlay muted loop className="video">
+        {/* <video autoPlay muted loop className="video">
           <source src="src/assets/backgroundclould.mp4" type="video/mp4" />
-        </video>
+        </video> */}
       </div>
       <div className="content">
         <div className="text">
