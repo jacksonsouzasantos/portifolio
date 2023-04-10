@@ -9,17 +9,15 @@
 .nav-menu {
   position: fixed;
   top: 0;
-  /* left: 0; */
-  /* width: 100%; */
+  width: 100%;
   z-index: 999;
-  /* valor maior do que a propriedade z-index do vídeo de plano de fundo */
   background-color: rgba(77, 76, 76, 0.5);
-  /* ...resto do código... */
-  
 }
 
 a {
   text-decoration: none !important;
+  color: #000;
+  font-weight: bold;
 }
 
 .nav-list {
@@ -34,7 +32,8 @@ a {
 
 .nav-link {
   display: block;
-  color: #0f0c0c;
+  color: #000;
+  /* ou "black" */
   padding: 10px;
   transition: all 0.3s ease-in-out;
 }
@@ -49,7 +48,6 @@ li {
   border-left: 5px solid transparent;
   transition: all 0.4s ease-in-out;
 }
-
 
 .nav-link:hover {
   background-color: #555;
@@ -73,6 +71,18 @@ li {
   }
 }
 
+@media (min-width: 768px) {
+  .nav-list li {
+    background-color: #cec6c600;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .nav-list li:hover {
+    background-color: #807d7d;
+  }
+}
+
+
 .nav-list {
   left: -103%;
   width: 100%;
@@ -94,3 +104,26 @@ li {
     transform: translateY(0);
   }
 }
+
+@media screen and (min-width: 772px) {
+
+  .nav-link,
+  ul,
+  li {
+    border-radius: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link:hover {
+  background-color: #555;
+  }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .nav-link,
+    li {
+      border-radius: 25px;
+    }
+  }
