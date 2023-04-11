@@ -5,6 +5,7 @@
   padding: 2rem;
   box-sizing: border-box;
   overflow: hidden;
+  margin-top: 10%;
 }
 
 .text-container {
@@ -41,6 +42,11 @@ p {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .home {
+    margin-top: 25%;
+  }
+}
 @media screen and (max-width: 767px) {
   .profile-pic {
     margin-top: 20px;
