@@ -14,15 +14,15 @@
   object-fit: cover;
   opacity: 1;
   transform: translateX(-50px);
-  animation: slideInRight 0.5s ease-out forwards;
-}
+  animation: slideInRight 0.8s ease-out forwards;
+  }
 
 .about-text {
   max-width: 600px;
   text-align: justify;
   opacity: 1;
   transform: translateY(-50px);
-  animation: fadeInDown 0.5s ease-out forwards;
+  animation: fadeInDown 0.8s ease-out forwards;
 }
 
 h2{
@@ -43,7 +43,7 @@ h2{
   }
 
   .about-img {
-    margin-top: 25px;
+    margin-top: 40px;
     margin-bottom: 40px;
     transform: translateX(0);
     animation: none;
@@ -54,3 +54,56 @@ h2{
     animation: none;
   }
 }
+
+@keyframes slideInRight {
+  from {
+  transform: translateX(-50px);
+  opacity: 0;
+  }
+  
+  to {
+  transform: translateX(0);
+  opacity: 1;
+  }
+  }
+  
+  .about-text {
+  max-width: 600px;
+  text-align: justify;
+  opacity: 1;
+  transform: translateY(-50px);
+  animation: fadeInDown 0.8s ease-out forwards;
+  }
+  
+  @keyframes fadeInDown {
+  from {
+  transform: translateY(-50px);
+  opacity: 0;
+  }
+  
+  to {
+  transform: translateY(0);
+  opacity: 1;
+  }
+  }
+
+  @keyframes slideInLeft {
+    from {
+    transform: translateX(-100px);
+    opacity: 0;
+    }
+    
+    to {
+    transform: translateX(0);
+    opacity: 1;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+      .about-img {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      transform: translateX(0);
+      animation: slideInLeft 0.8s ease-out forwards;
+      }
+      }
