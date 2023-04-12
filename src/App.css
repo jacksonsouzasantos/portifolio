@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  overflow-y:visible;
+  overflow-y:auto;
   background-color: black;
 }
 
@@ -68,3 +68,4 @@ body {
 .nav-link:hover {
   border-bottom-color: #333;
 }
+
