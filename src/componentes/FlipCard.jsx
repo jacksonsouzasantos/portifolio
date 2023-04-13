@@ -1,6 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper";
+import slackline1 from '../assets/slackline1.jpg';
+import slackline2 from '../assets/slackline2.jpg';
+import pao1 from '../assets/pao1.jpg';
+import pao2 from '../assets/pao2.jpg';
 import "../style/FlipCard.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -26,31 +30,31 @@ export default function FlipCard() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src={slackline1} alt="Minha Foto" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src={pao1} alt="Minha Foto" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        <img src={slackline2} alt="Minha Foto" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+        <img src={pao2} alt="Minha Foto" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          {/* <img src="https://swiperjs.com/demos/images/nature-9.jpg" /> */}
         </SwiperSlide>
       </Swiper>
     </>
