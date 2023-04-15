@@ -14,13 +14,11 @@ function App() {
     <>
       <Router>
         <Routes>
-          
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="*" element={<NotFound />}></Route>
-          
         </Routes>
       </Router>
     </>
@@ -28,6 +26,4 @@ function App() {
 }
 
 export default App;
-
-App.js
 
