@@ -1,5 +1,57 @@
+// import React, { useState } from 'react';
+// import { NavLink } from 'react-router-dom';
+// import { FaBars, FaTimes } from 'react-icons/fa';
+// import '../style/NavBar.css';
+
+// const NavBar = () => {
+//   const [showMenu, setShowMenu] = useState(false);
+
+//   const handleMenu = () => {
+//     setShowMenu(!showMenu);
+//   };
+
+//   const hideMenu = () => {
+//     setShowMenu(false);
+//   };
+
+//   return (
+//     <nav className={`nav-menu ${showMenu ? 'menu-open' : ''}`}>
+//       <div className="hamburger-menu" aria-label="Abrir menu" onClick={handleMenu}>
+//         {showMenu ? (
+//           <FaTimes />
+//         ) : (
+//           <FaBars />
+//         )}
+//       </div>
+//       <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`} data-testid='nav-menu'>
+//         <li className="nav-item">
+//           <NavLink exact to="/" onClick={hideMenu}>
+//             Home
+//           </NavLink>
+//         </li>
+//         <li className="nav-item">
+//           <NavLink to="/about" onClick={hideMenu}>
+//             About
+//           </NavLink>
+//         </li>
+//         <li className="nav-item">
+//           <NavLink to="/projects" onClick={hideMenu}>
+//             Projects
+//           </NavLink>
+//         </li>
+//         <li className="nav-item">
+//           <NavLink to="/skills" onClick={hideMenu}>
+//             Skills
+//           </NavLink>
+//         </li>
+//       </ul>
+//     </nav>
+//   );
+// };
+
+// export default NavBar;
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../style/NavBar.css';
 
@@ -15,37 +67,35 @@ const NavBar = () => {
   };
 
   return (
-    <nav className={`nav-menu ${showMenu ? 'menu-open' : ''}`}>
-      <div className="hamburger-menu">
-        {showMenu ? (
-          <FaTimes onClick={handleMenu} />
-        ) : (
-          <FaBars onClick={handleMenu} />
-        )}
-      </div>
-      <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`}>
-        <li className="nav-item">
-          <Link to="/" onClick={hideMenu}>
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/about" onClick={hideMenu}>
-            About
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/projects" onClick={hideMenu}>
-            Projects
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/skills" onClick={hideMenu}>
-            Skills
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="nav-menu-container">
+      <nav className={`nav-menu ${showMenu ? 'menu-open' : ''}`}>
+        <div className="hamburger-menu" aria-label="Abrir menu" onClick={handleMenu}>
+          {showMenu ? <FaTimes /> : <FaBars />}
+        </div>
+        <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`} data-testid='nav-menu'>
+          <li className="nav-item">
+            <NavLink exact to="/" onClick={hideMenu}>
+              Home
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/about" onClick={hideMenu}>
+              About
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/projects" onClick={hideMenu}>
+              Projects
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/skills" onClick={hideMenu}>
+              Skills
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 

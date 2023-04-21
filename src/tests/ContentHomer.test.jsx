@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import ContentHome from './ContentHome';
+import ContentHome from '../componentes/ContentHome';
 
 test('renders ContentHome component', () => {
   const { getByTestId } = render(<ContentHome />);
