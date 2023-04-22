@@ -11,7 +11,7 @@
   top: 0;
   width: 100%;
   z-index: 999;
-  background-color: rgba(77, 76, 76, 0.5);
+  background-color: rgba(87, 85, 85, 0.966);
 }
 
 a {
@@ -49,7 +49,7 @@ li {
 }
 
 .nav-link:hover {
-  background-color: #555;
+  background-color: rgba(87, 85, 85, 0.966);
 }
 
 @media screen and (min-width: 772px) {
@@ -176,13 +176,13 @@ li {
     }
   
     .nav-list li:hover {
-      background-color: #807d7d;
+      background-color: #000000;
     }
   }
   
   @media (min-width: 768px) {
     .nav-list li {
-      background-color: #cec6c600;
+      background-color: #96909000;
       transition: background-color 0.3s ease-in-out;
     }
   
@@ -191,6 +191,12 @@ li {
     }
   }
   
+  @media (min-width: 768px) {
+    .nav-menu {
+      background-color: #4b4b4b;
+      transition: background-color 0.3s ease-in-out;
+    }
+  }
   .nav-list {
     left: -103%;
   }

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import '../style/typeWrite.css';
 
 function TypeWrite({ texto }) {
   const [textoAtual, setTextoAtual] = useState('');

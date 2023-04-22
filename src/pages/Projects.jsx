@@ -1,10 +1,12 @@
 import React from 'react'
-import NavBar from '../componentes/NavBar'
+import ContentProjects from '../componentes/ContentProjects';
+import Footer from '../componentes/Footer';
 
 export default function Projects() {
   return (
-    <><h1>Projetos</h1>
-      <NavBar />
+    <>
+      <ContentProjects />
+      <Footer />
     </>
   )
 }

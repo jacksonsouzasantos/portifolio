@@ -5,7 +5,6 @@ import escalada from '../assets/escalada.jpg';
 import slackline2 from '../assets/slackline2.jpg';
 import pao1 from '../assets/pao1.jpg';
 import pao2 from '../assets/pao2.jpg';
-// import kombucha1 from '../assets/kombucha1.jpg';
 import "../style/FlipCard.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";

@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../componentes/NavBar';
+// import NavBar from '../componentes/NavBar';
 import '../style/About.css';
 import Footer from '../componentes/Footer';
 import mypicture from '../assets/mypicture.jpg';
@@ -10,7 +10,7 @@ export default function About() {
 return (
   
     <>
-    <NavBar />
+    {/* <NavBar /> */}
     <div className="about-container">
       <img src={mypicture} alt="Minha Foto" className="about-img" />
       <div className="about-text">
