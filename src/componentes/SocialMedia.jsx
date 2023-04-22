@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaTwitter, FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
 import '../style/SocialMedia.css';
 function SocialMedia() {
   return (
@@ -7,11 +7,6 @@ function SocialMedia() {
       <li>
         <a href='https://github.com/jacksonsouzasantos' target="blank" data-testid='github-icon'>
           <FaGithub />
-        </a>
-      </li>
-      <li>
-        <a href='https://www.instagram.com/jacksonszsantos/' target="blank" data-testid="instagram-icon">
-          <FaInstagram />
         </a>
       </li>
       <li>
