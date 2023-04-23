@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import '../style/Projects.css';
-import projeto1 from '../assets/projeto1.png';
+import projeto1 from '../assets/projeto1.svg';
 
 export default function Projects() {
   return (

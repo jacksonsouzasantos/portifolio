@@ -1,10 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper";
-import escalada from '../assets/escalada.jpg';
-import slackline2 from '../assets/slackline2.jpg';
-import pao1 from '../assets/pao1.jpg';
-import pao2 from '../assets/pao2.jpg';
+import escalada from '../assets/escalada.svg';
+import slackline2 from '../assets/slackline2.svg';
+import pao1 from '../assets/pao1.svg';
+import pao2 from '../assets/pao2.svg';
 import "../style/FlipCard.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -45,7 +45,7 @@ export default function FlipCard() {
         <img src={slackline2} alt="Minha Foto" />
         </SwiperSlide>
         {/* <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        <img src={} alt="Minha Foto" />
         </SwiperSlide> */}
         <SwiperSlide>
         <img src={pao2} alt="Minha Foto" />
@@ -54,7 +54,7 @@ export default function FlipCard() {
           <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
         </SwiperSlide>
         {/* <SwiperSlide>
-        <img src={kombucha1} alt="Minha Foto" />
+        <img src={} alt="Minha Foto" />
         </SwiperSlide> */}
       </Swiper>
     </>
