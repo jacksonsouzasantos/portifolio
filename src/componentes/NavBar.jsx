@@ -27,17 +27,17 @@ const NavBar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" onClick={hideMenu}>
+            <NavLink exact="true" to="/about" onClick={hideMenu}>
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/projects" onClick={hideMenu}>
+            <NavLink exact="true" to="/projects" onClick={hideMenu}>
               Projects
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/skills" onClick={hideMenu}>
+            <NavLink exact="true" to="/skills" onClick={hideMenu}>
               Skills
             </NavLink>
           </li>
