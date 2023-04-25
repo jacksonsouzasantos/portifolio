@@ -14,9 +14,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/skills" element={<Skills />} />
+        <Route exact="true" path="/about" element={<About />} />
+        <Route exact="true" path="/projects" element={<Projects />} />
+        <Route exact="true" path="/skills" element={<Skills />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
