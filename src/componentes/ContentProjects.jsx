@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import '../style/Projects.css';
 import projeto1 from '../assets/projeto1.svg';
+import projeto2 from '../assets/projeto2.svg';
 
 export default function Projects() {
   const flipCard = (event) => {
@@ -50,31 +51,31 @@ export default function Projects() {
 
         <div className="card" id="card2" onClick={flipCard}>
           <div className="card-front">
-            <img src={projeto1} alt="Imagem do Projeto 2" />
-            <h2 className="card-title">Shopping Cart</h2>
+            <img src={projeto2} alt="Imagem do Projeto 2" />
+            <h2 className="card-title">Solar System</h2>
             <h3 className="card-subtitle">Projeto desenvolvido no módulo de front end durante o curso na escola Trybe. Mais detalhes no verso </h3>
             <h4 className="card-subtitle">Código do projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
-                <a href='https://github.com/jacksonsouzasantos/shopping-cart' target="blank" data-testid='github-icon'>
+                <a href='https://github.com/jacksonsouzasantos/Solar-System' target="blank" data-testid='github-icon'>
                   <FaGithub />
                 </a>
               </li>
             </ul>
           </div>
           <div className="card-back">
-            <h3 className="card-subtitle">Foi implementado um carrinho de compras totalmente dinâmico, consumindo dados diretamente de uma API do Mercado Livre. Onde o usuário pode adicionar e remover itens do carrinho. Também foi adicionado a função para buscar o endereço pelo cep, consumindo API da brasilapi.com.br.</h3>
+            <h3 className="card-subtitle">A proposta foi desenvolver um aplicação que exibe-se o sistema solar e as viagens espaciais utilizando o React. Além de visualizar os planetas do sistema solar. Também exibe cards com as informações sobre missões espaciais.</h3>
             <h4 className="card-subtitle">Esse projeto foi desenvolvido com as tecnologias seguintes tecnologias:</h4>
             <ul className="card-list">
               <li>Javascript</li>
-              <li>Vite</li>
-              <li>Css</li>
+              <li>Reactjs</li>
+              <li>Css3</li>
               <li>EsLint</li>
-              <li>StyleLint</li>
               <li>Jest</li>
+              <li>StyleLint</li>
             </ul>
             <div className="card-subtitle">
-              <a href="https://shopping-cart-five-gamma.vercel.app/" className="card-link" target='blank'>Link Projeto Shopping Cart</a></div>
+              <a href="https://solar-system-eta.vercel.app/" className="card-link" target='blank'>Link Projeto Solar System</a></div>
           </div>
         </div>
 
