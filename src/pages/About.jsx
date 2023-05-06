@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../componentes/Footer';
-import FlipCard from '../componentes/FlipCard';
 import ContentAbout from '../componentes/ContentAbout';
+import FlipCard from '../componentes/FlipCard';
 
 
 export default function About() {

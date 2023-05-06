@@ -2,6 +2,7 @@
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 100px;
   }
   
   .swiper-slide {
@@ -14,6 +15,7 @@
   .swiper-slide img {
     display: block;
     width: 100%;
+    border-radius: 100%;
   }
 
   @media screen and (min-width: 768px) {
@@ -32,8 +34,18 @@
     }
 
     .swiper-slide img {
-      width: 90%;
+      display: block;
+      width: 70%;
+      border-radius: 100%;
+
     }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 505px;
+      height: 50px;
+    }
+    
   }
   
     
