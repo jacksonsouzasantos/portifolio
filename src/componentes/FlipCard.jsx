@@ -8,7 +8,7 @@ import pao2 from '../assets/pao2.svg';
 import "../style/FlipCard.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
 
 export default function FlipCard() {
   return (
@@ -26,7 +26,7 @@ export default function FlipCard() {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow]}
         className="mySwiper"
       >
         <SwiperSlide>
