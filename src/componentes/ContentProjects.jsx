@@ -17,8 +17,8 @@ export default function Projects() {
 
   return (
     <>
+      <h2>Projetos Front-end</h2>
       <div className="projects-container">
-
         <div className="card" id="card1" onClick={flipCard}>
           <div className="card-front">
             <img src={projeto1} alt="Imagem do Projeto 1" />
