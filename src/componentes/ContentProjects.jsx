@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import '../style/Projects.css';
 import projeto1 from '../assets/projeto1.svg';
 import projeto2 from '../assets/projeto2.svg';
+import projeto3 from '../assets/projeto3.png';
 
 export default function Projects() {
   const flipCard = (event) => {
@@ -82,31 +83,31 @@ export default function Projects() {
 
         <div className="card" id="card3" onClick={flipCard}>
           <div className="card-front">
-            <img src={projeto1} alt="Imagem do Projeto 3" />
-            <h2 className="card-title">Shopping Cart</h2>
+            <img src={projeto3} alt="Imagem do Projeto 3" />
+            <h2 className="card-title">Music Tunes</h2>
             <h3 className="card-subtitle">Projeto desenvolvido no módulo de front end durante o curso na escola Trybe. Mais detalhes no verso </h3>
-            <h4 className="card-subtitle">Código do projeto disponível no github.</h4>
+            <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
-                <a href='https://github.com/jacksonsouzasantos/shopping-cart' target="blank" data-testid='github-icon'>
+                <a href='https://github.com/jacksonsouzasantos/musicTunes' target="blank" data-testid='github-icon'>
                   <FaGithub />
                 </a>
               </li>
             </ul>
           </div>
           <div className="card-back">
-            <h3 className="card-subtitle">Foi implementado um carrinho de compras totalmente dinâmico, consumindo dados diretamente de uma API do Mercado Livre. Onde o usuário pode adicionar e remover itens do carrinho. Também foi adicionado a função para buscar o endereço pelo cep, consumindo API da brasilapi.com.br.</h3>
-            <h4 className="card-subtitle">Esse projeto foi desenvolvido com as tecnologias seguintes tecnologias:</h4>
+            <h3 className="card-subtitle">Foi desenvolvido aplicação para pesquisar e listar álbuns e músicas de várias bandas e artistas. Será possível até mesmo ouvir o preview de cada música. Além disso, você também poderá favoritar suas músicas preferidas. Aprendizado sobre Ciclo de Vida de Componentes e React Route</h3>
+            <h4 className="card-subtitle">Tecnologias utilizadas:</h4>
             <ul className="card-list">
-              <li>Javascript</li>
-              <li>Vite</li>
-              <li>Css</li>
-              <li>EsLint</li>
-              <li>StyleLint</li>
-              <li>Jest</li>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>React Router</li>
+              <li>Css3</li>
+              <li>EsLint/StyleLint</li>
+              <li>testingLibrary</li>
             </ul>
             <div className="card-subtitle">
-              <a href="https://shopping-cart-five-gamma.vercel.app/" className="card-link" target='blank'>Link Projeto Shopping Cart</a></div>
+              <a href="https://music-tunes-iota.vercel.app/" className="card-link" target='blank'>Link Projeto Music Tunes</a></div>
           </div>
         </div>
       </div></>
