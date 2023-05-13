@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../componentes/NavBar';
 import ContentAbout from '../componentes/ContentAbout';
-import FlipCard from '../componentes/FlipCard';
+import SlideCards from '../componentes/SlideCards';
 import Footer from '../componentes/Footer';
 
 
@@ -11,7 +11,7 @@ export default function About() {
     <>
       <NavBar />
       <ContentAbout />
-      <FlipCard />
+      <SlideCards />
       <Footer />
     </>
   );

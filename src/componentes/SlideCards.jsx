@@ -1,16 +1,15 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow } from "swiper";
 import escalada from '../assets/escalada.svg';
 import slackline2 from '../assets/slackline2.svg';
 import pao1 from '../assets/pao1.svg';
 import pao2 from '../assets/pao2.svg';
-import "../style/FlipCard.css";
+import "../style/SlideCards.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-// import "swiper/css/pagination";
 
-export default function FlipCard() {
+export default function SlideCards() {
   return (
     <>
       <Swiper
