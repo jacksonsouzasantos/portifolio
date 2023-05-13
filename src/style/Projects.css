@@ -1,4 +1,4 @@
- h2{
+ #h2Card{
   text-align: center;
   margin-top: 100px;
  }
@@ -63,6 +63,12 @@
 @media only screen and (max-width: 794px) {
   .projects-container {
     justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 794px) {
+  h2{
+    margin-top: 25px;
   }
 }
 

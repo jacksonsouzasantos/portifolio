@@ -18,14 +18,14 @@ export default function Projects() {
 
   return (
     <>
-      <h2>Projetos Front-end</h2>
+      <h2 id='h2Card'>Projetos Front-end</h2>
       <div className="projects-container">
         <div className="card" id="card1" onClick={flipCard}>
           <div className="card-front">
             <img src={projeto1} alt="Imagem do Projeto 1" />
             <h2 className="card-title">Shopping Cart</h2>
             <h3 className="card-subtitle">Projeto desenvolvido no módulo de front end durante o curso na escola Trybe. Mais detalhes no verso </h3>
-            <h4 className="card-subtitle">Código do projeto disponível no github.</h4>
+            <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
                 <a href='https://github.com/jacksonsouzasantos/shopping-cart' target="blank" data-testid='github-icon'>
@@ -55,7 +55,7 @@ export default function Projects() {
             <img src={projeto2} alt="Imagem do Projeto 2" />
             <h2 className="card-title">Solar System</h2>
             <h3 className="card-subtitle">Projeto desenvolvido no módulo de front end durante o curso na escola Trybe. Mais detalhes no verso </h3>
-            <h4 className="card-subtitle">Código do projeto disponível no github.</h4>
+            <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
                 <a href='https://github.com/jacksonsouzasantos/Solar-System' target="blank" data-testid='github-icon'>
@@ -110,6 +110,8 @@ export default function Projects() {
               <a href="https://music-tunes-iota.vercel.app/" className="card-link" target='blank'>Link Projeto Music Tunes</a></div>
           </div>
         </div>
-      </div></>
+       </div>
+         <h2>____________________________</h2>
+      </>
   );
 }

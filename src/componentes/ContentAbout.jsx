@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/About.css';
-import mypicture from '../assets/mypicture.svg';
+import perfil from '../assets/perfil.png';
 
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
 
     <>
       <div className="about-container">
-        <img src={mypicture} alt="Minha Foto" className="about-img" />
+        <img src={perfil} alt="Minha Foto" className="about-img" />
         <div className="about-text">
           <h2>Sobre Mim</h2>
           <p>Meu nome é Jackson e sou um desenvolvedor de software para web apaixonado por tecnologia e inovação. Além do mundo da programação, sou um amante de esportes como slackline e musculação, que me mantêm em forma e em sintonia com minha rotina de trabalho. Além disso, minha paixão pela cozinha e fermentação de alimentos e bebidas me torna um cozinheiro habilidoso e curioso, sempre experimentando novas receitas e técnicas para descobrir novos sabores e aromas.</p>
