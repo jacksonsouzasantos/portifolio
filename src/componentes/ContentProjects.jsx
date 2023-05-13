@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import '../style/Projects.css';
 import projeto1 from '../assets/projeto1.svg';
 import projeto2 from '../assets/projeto2.svg';
-import projeto3 from '../assets/projeto3.png';
+import projeto3 from '../assets/projeto3.svg';
 
 export default function Projects() {
   const flipCard = (event) => {

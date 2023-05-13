@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/About.css';
-import perfil from '../assets/perfil.png';
+import perfil from '../assets/perfil.svg';
 
 
 export default function About() {
