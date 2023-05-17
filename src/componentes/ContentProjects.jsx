@@ -28,7 +28,7 @@ export default function Projects() {
             <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
-                <a href='https://github.com/jacksonsouzasantos/shopping-cart' target="blank" data-testid='github-icon'>
+                <a href='https://github.com/jacksonsouzasantos/shopping-cart' target="blank" data-testid='github-icon' id='gitCard'>
                   <FaGithub />
                 </a>
               </li>
@@ -58,7 +58,7 @@ export default function Projects() {
             <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
-                <a href='https://github.com/jacksonsouzasantos/Solar-System' target="blank" data-testid='github-icon'>
+                <a href='https://github.com/jacksonsouzasantos/Solar-System' target="blank" data-testid='github-icon' id='gitCard'>
                   <FaGithub />
                 </a>
               </li>
@@ -89,14 +89,14 @@ export default function Projects() {
             <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
-                <a href='https://github.com/jacksonsouzasantos/musicTunes' target="blank" data-testid='github-icon'>
+                <a href='https://github.com/jacksonsouzasantos/musicTunes' target="blank" data-testid='github-icon' id='gitCard'>
                   <FaGithub />
                 </a>
               </li>
             </ul>
           </div>
           <div className="card-back">
-            <h3 className="card-subtitle">Foi desenvolvido aplicação para pesquisar e listar álbuns e músicas de várias bandas e artistas. Será possível até mesmo ouvir o preview de cada música. Além disso, você também poderá favoritar suas músicas preferidas. Aprendizado sobre Ciclo de Vida de Componentes e React Route</h3>
+            <h3 className="card-subtitle">Foi desenvolvido aplicação para pesquisar e listar álbuns e músicas. Será possível  ouvir o preview de cada música. Além disso, você também poderá favoritar suas músicas preferidas. Aprendizado sobre Ciclo de Vida de Componentes e React Route</h3>
             <h4 className="card-subtitle">Tecnologias utilizadas:</h4>
             <ul className="card-list">
               <li>React</li>
