@@ -32,29 +32,14 @@ export default function SlideCards() {
           <img src={escalada} alt="Minha Foto" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src={pao1} alt="Minha Foto" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
         <img src={slackline2} alt="Minha Foto" />
         </SwiperSlide>
-        {/* <SwiperSlide>
-        <img src={} alt="Minha Foto" />
-        </SwiperSlide> */}
         <SwiperSlide>
         <img src={pao2} alt="Minha Foto" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        {/* <SwiperSlide>
-        <img src={} alt="Minha Foto" />
-        </SwiperSlide> */}
       </Swiper>
     </>
   );
