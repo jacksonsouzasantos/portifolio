@@ -15,14 +15,21 @@ const NavBar = () => {
   };
 
   return (
-    <div className="nav-menu-container">
-      <nav className={`nav-menu ${showMenu ? 'menu-open' : ''}`}>
-        <div className="hamburger-menu" aria-label="Abrir menu" onClick={handleMenu}>
+    // <div className="nav-menu-container">
+    <div className="nav-menu-container" role="navigation">
+      <nav className={`nav-menu ${showMenu ? 'menu-open' : ''}`} role="menubar">
+        {/* <div className="hamburger-menu" aria-label="Abrir 
+        menu" onClick={handleMenu}>
           {showMenu ? <FaTimes /> : <FaBars />}
-        </div>
-        <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`} data-testid='nav-menu'>
+        </div> */}
+ <div className={`hamburger-menu ${showMenu ? 'menu-open' : ''}`} aria-label="Abrir menu" onClick={handleMenu}>
+  {showMenu ? <FaTimes /> : <FaBars className="hamburger-icon"/>}
+</div>
+
+        <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`} data-testid='nav-menu' role="menu">
           <li className="nav-item">
-            <NavLink to="/" onClick={hideMenu}>
+          <NavLink to="/" onClick={hideMenu} aria-current="page">
+            {/* <NavLink to="/" onClick={hideMenu}> */}
               Home
             </NavLink>
           </li>

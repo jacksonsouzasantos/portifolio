@@ -14,9 +14,14 @@
   background-color: rgba(87, 85, 85, 0.966);
 }
 
+.hamburger-icon {
+  color: #fff;
+}
+
+
 a {
   text-decoration: none !important;
-  color: #000;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -56,6 +61,14 @@ li {
   .nav-list li {
     display: inline-block;
     margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  a {
+    text-decoration: none !important;
+    color: #ffffff;
+    font-weight: bold;
   }
 }
 
