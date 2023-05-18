@@ -18,7 +18,7 @@ export default function Projects() {
 
   return (
     <>
-      <h2 id='h2Card'>Projetos Front-end</h2>
+      <h2 className='Name-module'>Projetos Front-end</h2>
       <div className="projects-container">
         <div className="card" id="card1" onClick={flipCard}>
           <div className="card-front">
@@ -28,8 +28,8 @@ export default function Projects() {
             <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
-                <a href='https://github.com/jacksonsouzasantos/shopping-cart' target="blank" data-testid='github-icon' id='gitCard'>
-                  <FaGithub />
+                <a href='https://github.com/jacksonsouzasantos/shopping-cart' target="blank" data-testid='github-icon'>
+                <p className='git-link'>Github</p> 
                 </a>
               </li>
             </ul>
@@ -45,7 +45,7 @@ export default function Projects() {
               <li>StyleLint</li>
               <li>Jest</li>
             </ul>
-            <div className="card-subtitle">
+            <div className='link-projeto'>
               <a href="https://shopping-cart-five-gamma.vercel.app/" className="card-link" target='blank'>Link Projeto Shopping Cart</a></div>
           </div>
         </div>
@@ -57,9 +57,9 @@ export default function Projects() {
             <h3 className="card-subtitle">Projeto desenvolvido no módulo de front end durante o curso na escola Trybe. Mais detalhes no verso </h3>
             <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
-              <li>
-                <a href='https://github.com/jacksonsouzasantos/Solar-System' target="blank" data-testid='github-icon' id='gitCard'>
-                  <FaGithub />
+              <li className='link_github'>
+                <a href='https://github.com/jacksonsouzasantos/Solar-System' target="blank" data-testid='github-icon' >
+                 <p className='git-link'>Github</p> 
                 </a>
               </li>
             </ul>
@@ -75,7 +75,7 @@ export default function Projects() {
               <li>Jest</li>
               <li>StyleLint</li>
             </ul>
-            <div className="card-subtitle">
+            <div className='link-projeto'>
               <a href="https://solar-system-eta.vercel.app/" className="card-link" target='blank'>Link Projeto Solar System</a></div>
           </div>
         </div>
@@ -89,8 +89,8 @@ export default function Projects() {
             <h4 className="card-subtitle">Sobre o projeto disponível no github.</h4>
             <ul className='social_github'>
               <li>
-                <a href='https://github.com/jacksonsouzasantos/musicTunes' target="blank" data-testid='github-icon' id='gitCard'>
-                  <FaGithub />
+                <a href='https://github.com/jacksonsouzasantos/musicTunes' target="blank" data-testid='github-icon'>
+                <p className='git-link'>Github</p> 
                 </a>
               </li>
             </ul>
@@ -106,7 +106,7 @@ export default function Projects() {
               <li>EsLint/StyleLint</li>
               <li>testingLibrary</li>
             </ul>
-            <div className="card-subtitle">
+            <div className='link-projeto'>
               <a href="https://music-tunes-iota.vercel.app/" className="card-link" target='blank'>Link Projeto Music Tunes</a></div>
           </div>
         </div>

@@ -1,4 +1,4 @@
- #h2Card{
+ .Name-module{
   text-align: center;
   margin-top: 100px;
   font-family: sans-serif;
@@ -43,7 +43,10 @@
 .card-title {
   margin-top: 20px;
   font-size: 24px;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .card-subtitle {
@@ -67,9 +70,10 @@ li{
   color: black;
 }
 
-#gitCard{
-  color: #007bff;;
+.social_github{
+  padding-top: 0%;
 }
+
 @media only screen and (max-width: 794px) {
   .projects-container {
     justify-content: center;
@@ -118,20 +122,28 @@ li{
   transform: rotateY(180deg);
 }
 
-.social_github {
+.link-projeto{
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.git-link {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  padding: 0;
+  padding: 0%;
+  padding-top: 0%;
+  color: #007bff;;
 }
 
-.social_github svg {
+/* .social_github svg {
   width: 1.5em;
   height: 1.5em;
   cursor: pointer;
   fill: currentColor;
   transform-origin: center;
-}
+} */
 
 /* Definir a animação tremor */
 @keyframes tremor {
@@ -161,7 +173,7 @@ li{
 }
 
 /* Aplicar a animação ao elemento */
-.social_github svg {
+.git-link, .link-projeto {
   animation-name: tremor;
   animation-duration: 1s;
   animation-iteration-count: infinite;
