@@ -9,6 +9,7 @@
 .social_list li {
   margin: 0 0.5em;
   /* reduz a margem entre os ícones */
+  color: aliceblue;
 }
 
 .social_list a {
