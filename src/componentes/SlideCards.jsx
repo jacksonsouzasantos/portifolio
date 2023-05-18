@@ -16,7 +16,7 @@ export default function SlideCards() {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={"2"}
+        slidesPerView={"3"}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -29,16 +29,16 @@ export default function SlideCards() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={escalada} alt="Minha Foto" />
+          <img src={escalada} alt="Minha Foto"  width="250" height="250"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={pao1} alt="Minha Foto" />
+          <img src={pao1} alt="Minha Foto"  width="250" height="250"/>
         </SwiperSlide>
         <SwiperSlide>
-        <img src={slackline2} alt="Minha Foto" />
+        <img src={slackline2} alt="Minha Foto"   width="250" height="250"/>
         </SwiperSlide>
         <SwiperSlide>
-        <img src={pao2} alt="Minha Foto" />
+        <img src={pao2} alt="Minha Foto"  width="250" height="250" />
         </SwiperSlide>
       </Swiper>
     </>
