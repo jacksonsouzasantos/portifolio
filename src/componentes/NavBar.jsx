@@ -16,28 +16,28 @@ const NavBar = () => {
 
   return (
     <div className="nav-menu-container" role="navigation">
-      <nav className={`nav-menu ${showMenu ? 'menu-open' : ''}`} aria-label="Menu" role="menubar">
+      <nav className={`nav-menu ${showMenu ? 'menu-open' : ''}`} role="menubar">
         <div className={`hamburger-menu ${showMenu ? 'menu-open' : ''}`} aria-label="Abrir menu" onClick={handleMenu}>
           {showMenu ? <FaTimes /> : <FaBars className="hamburger-icon" />}
         </div>
-        <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`} role="menu">
+        <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`} data-testid="nav-menu" role="menu">
           <li className="nav-item">
-            <NavLink to="/" onClick={hideMenu} aria-current="page" role="none">
+            <NavLink to="/" onClick={hideMenu} aria-current="page">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" onClick={hideMenu} role="none">
+            <NavLink to="/about" onClick={hideMenu}>
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/projects" onClick={hideMenu} role="none">
+            <NavLink to="/projects" onClick={hideMenu}>
               Projects
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/skills" onClick={hideMenu} role="none">
+            <NavLink to="/skills" onClick={hideMenu}>
               Skills
             </NavLink>
           </li>
