@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaGithub } from "react-icons/fa";
 import '../style/Projects.css';
 import projeto1 from '../assets/projeto1.svg';
 import projeto2 from '../assets/projeto2.svg';
