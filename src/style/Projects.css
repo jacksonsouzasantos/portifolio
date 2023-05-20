@@ -137,14 +137,6 @@ li{
   color: #007bff;;
 }
 
-/* .social_github svg {
-  width: 1.5em;
-  height: 1.5em;
-  cursor: pointer;
-  fill: currentColor;
-  transform-origin: center;
-} */
-
 /* Definir a animação tremor */
 @keyframes tremor {
   0% {

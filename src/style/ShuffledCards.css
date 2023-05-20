@@ -1,13 +1,32 @@
-#SwiperShuffled {
+ #SwiperShuffled {
     width: 240px;
     height: 320px;
-  }
-  
-  #h2Card{
-    text-align: center;
-    margin-top: 100px;
-   }
+  } 
    
+  #card1Chuffled,
+  #card2Chuffled {
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    height: 320px;
+    padding: 5%;
+    margin: 10%;
+    margin-right: 10%;
+  }
+   
+  @media screen and (max-width: 740px) {
+    #card2Chuffled {
+      padding-bottom: 10%;
+      padding-left: 0%;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    #card1Chuffled {
+      padding-bottom: 0%;
+    }
+  }
+
   .shuffledSlide {
     display: flex;
     align-items: center;
