@@ -9,7 +9,7 @@ function ContentHome() {
       <div className="home">
         <div className="content">
           <div className="text">
-            <TypeWrite className="write" texto="Olá tudo bem? Esse é o meu portfólio"  />
+            <TypeWrite className="write" texto="Olá boas vindas ao meu portfólio"  />
             <p data-testid="welcome-text" >Eu sou um desenvolvedor de aplicativos web <br/> apaixonado por criar soluções criativas para problemas complexos.</p>
           </div>
         </div>
