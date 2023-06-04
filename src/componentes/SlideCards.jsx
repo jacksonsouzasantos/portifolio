@@ -4,7 +4,7 @@ import { EffectCoverflow } from "swiper";
 import escalada from '../assets/escalada.svg';
 import slackline2 from '../assets/slackline2.svg';
 import pao1 from '../assets/pao1.svg';
-import pao2 from '../assets/pao2.svg';
+import forneando from '../assets/forneando.svg';
 import "../style/SlideCards.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -38,7 +38,7 @@ export default function SlideCards() {
         <img src={slackline2} alt="Minha Foto"   width="250" height="250"/>
         </SwiperSlide>
         <SwiperSlide>
-        <img src={pao2} alt="Minha Foto"  width="250" height="250" />
+        <img src={forneando} alt="Minha Foto"  width="250" height="250" />
         </SwiperSlide>
       </Swiper>
     </>

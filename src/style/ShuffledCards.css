@@ -13,13 +13,35 @@
     margin: 10%;
     margin-right: 10%;
   }
-   
+
   @media screen and (max-width: 740px) {
-    #card2Chuffled {
+    #card1Chuffled {
       padding-bottom: 10%;
-      padding-left: 0%;
+      padding-left: 8%;
     }
   }
+
+  @media screen and (max-width: 740px) {
+    #card2Chuffled {
+      padding-bottom: 20%;
+      padding-left: 8%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #card1Chuffled {
+      padding-bottom: 10%;
+      padding-left: 20%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #card2Chuffled {
+      padding-bottom: 0%;
+      padding-left: 20%;
+    }
+  }
+
 
   @media screen and (max-width: 740px) {
     #card1Chuffled {
