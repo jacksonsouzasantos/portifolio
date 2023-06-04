@@ -23,22 +23,22 @@ const NavBar = () => {
 				<ul className={`nav-list ${showMenu ? 'show-menu' : ''}`} data-testid="nav-menu" role="menu">
 					<li className="nav-item">
 						<NavLink to="/" onClick={hideMenu} aria-current="page">
-							Home
+							Início
 						</NavLink>
 					</li>
 					<li className="nav-item">
 						<NavLink to="/about" onClick={hideMenu}>
-							About
+							Sobre
 						</NavLink>
 					</li>
 					<li className="nav-item">
 						<NavLink to="/projects" onClick={hideMenu}>
-							Projects
+							Projetos
 						</NavLink>
 					</li>
 					<li className="nav-item">
 						<NavLink to="/skills" onClick={hideMenu}>
-							Skills
+							Habilidades
 						</NavLink>
 					</li>
 				</ul>

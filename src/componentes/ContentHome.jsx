@@ -6,14 +6,14 @@ import Footer from './Footer';
 function ContentHome() {
   return (
     <>
-      <Footer />
       <div className="home">
         <div className="content">
           <div className="text">
-            <TypeWrite className="write" texto="Bem-vindos ao meu portfólio"  />
-            <p data-testid="welcome-text" >Eu sou um desenvolvedor de aplicativos web apaixonado por criar soluções criativas para problemas complexos.</p>
+            <TypeWrite className="write" texto="Olá tudo bem? Esse é o meu portfólio"  />
+            <p data-testid="welcome-text" >Eu sou um desenvolvedor de aplicativos web <br/> apaixonado por criar soluções criativas para problemas complexos.</p>
           </div>
         </div>
+      <Footer />
       </div></>
   );
 }
