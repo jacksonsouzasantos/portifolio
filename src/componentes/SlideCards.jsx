@@ -14,7 +14,8 @@ export default function SlideCards() {
     <>
       <Swiper
         effect={"coverflow"}
-        grabCursor={true}        centeredSlides={true}
+        grabCursor={true}        
+        centeredSlides={true}
         slidesPerView={"3"}
         coverflowEffect={{
           rotate: 50,
