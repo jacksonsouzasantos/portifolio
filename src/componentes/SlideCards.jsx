@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow } from "swiper";
+import { Autoplay, EffectCoverflow } from "swiper";
 import escalada from '../assets/escalada.svg';
 import slackline2 from '../assets/slackline2.svg';
 import pao1 from '../assets/pao1.svg';
@@ -14,8 +14,7 @@ export default function SlideCards() {
     <>
       <Swiper
         effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
+        grabCursor={true}        centeredSlides={true}
         slidesPerView={"3"}
         coverflowEffect={{
           rotate: 50,
@@ -24,8 +23,11 @@ export default function SlideCards() {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
-        modules={[EffectCoverflow]}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        modules={[EffectCoverflow, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
